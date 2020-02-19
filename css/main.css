@@ -1,0 +1,173 @@
+    /* dark green  */
+    /* color: #39753c; */
+    /* color: rgb(57, 117, 60); */
+
+    /* brown */
+    /* color: #895f27; */
+    /* color: rgb(137, 95, 39); */
+
+    /* avoc green */
+    /* color: rgb(238, 248, 130); */
+    /* color: #eef882; */
+    
+#header {
+    background-color: #39753c;;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0 5%;
+}
+
+#nav-items {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+#header a {
+    color: white;
+    text-align: center;
+}
+
+#header a:hover {
+    color: #eef882;
+}
+
+#header img {
+    display: block;
+    float: left;
+    width: 3em;
+    border: 0.2em solid #39753c;
+    border-radius: 50%;
+}
+
+main {
+    margin-top: 5em;
+}
+
+/* hr {
+    color: #895f27;
+} */
+
+#about {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#about img {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    max-height: 400px;
+}
+
+#about-text,
+#banner-text {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#vid-div {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#video {
+    display: block;
+    margin: auto;
+    min-width: 80%;
+}
+
+#products {
+    background-color: #eef882;
+}
+
+#product-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#product-item {
+    width: 80%;
+    margin: 1em;
+}
+
+#product-pic {
+    width: 100%;
+    margin: auto;
+}
+
+#product-text {
+    background-color: #39753c;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: .5em;
+}
+
+#avocado-banner {
+    background-image: url("https://images.unsplash.com/photo-1573566291259-fd494a326b60?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=582&q=80");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: white;
+    margin: auto;
+}
+
+#avocado-banner img {
+    transform: rotate(90deg);
+}
+
+.banner-center {
+    margin: auto;
+    width: 100%;
+    padding: 1em 0;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+form {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+form span {
+    background-color: gray;
+    padding: .7em;
+}
+
+#footer-footer {
+    background-color: #895f27;
+    color: #eef882;
+    padding: 1.2em;
+}
+
+@media only screen and (min-width: 700px) {
+    #about-text {
+        width: 50%;
+    }
+    
+    #vid-div {
+        width: 70%;
+    }
+
+    #product-item {
+        width: 25%;
+        margin: 2em;
+    }
+
+    #banner-text {
+        width: 90%;
+    }
+
+    .banner-center {
+        font-size: 2.5em;
+      }
+}
